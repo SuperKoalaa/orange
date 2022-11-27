@@ -1,0 +1,10 @@
+{
+  "resourceName": "OrangeCustomerInfo",
+  "tableName": "OrangeCustomerInfo",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

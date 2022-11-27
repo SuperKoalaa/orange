@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Container from "@mui/material/Container";
+import MyTable from "./components/MyTable";
+import CreatePerson from "./components/Create_Person";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      <Container>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <h1>AWS Amplify - API Gateway, DynamoDB, Lambda</h1>
+        </div>
+
+        <hr />
+        <CreatePerson />
+
+        <hr />
+        <MyTable />
+      </Container>
+    </>
   );
 }
 

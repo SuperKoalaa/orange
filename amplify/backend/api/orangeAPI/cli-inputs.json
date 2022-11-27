@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/ProductTest": {
+      "name": "/ProductTest",
+      "lambdaFunction": "orangeCURD",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

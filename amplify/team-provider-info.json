@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-orangeamplify-dev-164928-authRole",
+      "UnauthRoleArn": "arn:aws:iam::816550435215:role/amplify-orangeamplify-dev-164928-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::816550435215:role/amplify-orangeamplify-dev-164928-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-orangeamplify-dev-164928-deployment",
+      "UnauthRoleName": "amplify-orangeamplify-dev-164928-unauthRole",
+      "StackName": "amplify-orangeamplify-dev-164928",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:816550435215:stack/amplify-orangeamplify-dev-164928/5110bf80-55bf-11ed-9a42-026842e72d8e",
+      "AmplifyAppId": "d2k7agulpj6pr0"
+    },
+    "categories": {
+      "function": {
+        "orangeCURD": {
+          "deploymentBucketName": "amplify-orangeamplify-dev-164928-deployment",
+          "s3Key": "amplify-builds/orangeCURD-61435234692b5a584e78-build.zip"
+        }
+      },
+      "storage": {
+        "OrangeCustomerInfo": {}
+      },
+      "api": {
+        "orangeAPI": {}
+      },
+      "auth": {
+        "orangeamplify4c32a74d": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2k7agulpj6pr0",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
